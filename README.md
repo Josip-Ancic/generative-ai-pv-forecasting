@@ -1,6 +1,6 @@
 # Generative AI for Household Solar (PV) Forecasting: Conditional VAE
 
-**Bachelor's thesis**: *Generative Artificial Intelligence in Renewable Energy Systems*
+**Bachelor's thesis**: *Generative Artificial Intelligence in Renewable Energy Systems*  
 Faculty of Organization and Informatics (FOI), University of Zagreb, September 2026 · Mentor: Assoc. Prof. Dijana Oreški, PhD
 
 A **conditional variational autoencoder (cVAE), written from scratch in NumPy**, learns the daily profiles of solar production and household consumption from real hourly smart-meter data. Instead of predicting a single number for tomorrow, it generates hundreds of plausible scenarios, from cloudy to fully sunny days, so the forecast also describes uncertainty.
@@ -29,7 +29,7 @@ A **conditional variational autoencoder (cVAE), written from scratch in NumPy**,
 
 ## Data
 
-[Open Power System Data, Household Data](https://data.open-power-system-data.org/household_data/) (60-min, single index), household `DE_KN_residential4`, 2015-10 to 2018-02.
+[Open Power System Data, Household Data](https://data.open-power-system-data.org/household_data/) (60-min, single index), household `DE_KN_residential4`, 2015-10 to 2018-02.  
 Download `household_data_60min_singleindex.csv` into the repository root (it is not included because of its size).
 
 ## Run
